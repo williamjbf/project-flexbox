@@ -65,6 +65,10 @@ header .menu{
 }
 
 .texto-apresentacao a{
+
+}
+
+.btn{
     background-color: #122A57;
     color: #fff;
     text-align: center;
@@ -159,4 +163,71 @@ header .menu{
 .item-servico img{
     width: 80%;
     margin: auto;
+}
+
+#planos{
+    flex-direction: column;
+    min-height: 50vh;
+    padding-top: 50px;
+}
+
+#planos h2{
+    font-size: 32px;
+}
+
+.list-planos{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.item-plano{
+    flex: 1;
+    border: 5px solid #122A57;
+    margin-right: 20px;
+    max-width: 240px;
+}
+
+.item-plano .btn{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.item-plano h3{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item-plano h3::after{
+    content: "";
+    background-color: #122A57;
+    width: 80%;
+    height: 3px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.item-plano ul{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.item-plano ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.item-plano ul li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #122A57;
+    margin-right: 5px;
 }
