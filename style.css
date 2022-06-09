@@ -13,3 +13,9 @@ ul{
 ul li a{
     text-decoration: none;
 }
+
+.flex-container{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+}
