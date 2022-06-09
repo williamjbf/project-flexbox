@@ -231,3 +231,17 @@ header .menu{
     background-color: #122A57;
     margin-right: 5px;
 }
+.footer{
+    background-color: #122A57;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer p{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
